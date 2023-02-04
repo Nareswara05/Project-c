@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="Login"-->
+<!--        android:textSize="15pt"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.466" />-->
+
+
+    <ImageView
+
+        android:layout_width="241dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
+        android:src="@drawable/ic_baseline_tag_faces_24"
+
+
+        />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="10pt"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="11pt" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:textSize="11pt"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="5pt"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnPassword"
+        android:layout_marginTop="70px"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+
+        />
+
+</LinearLayout>
